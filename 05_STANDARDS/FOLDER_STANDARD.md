@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define the official folder structure for the ROOTS project.
 
@@ -16,7 +16,7 @@ No agent may create arbitrary folders.
 
 ---
 
-# ROOT STRUCTURE
+## Root Structure
 
 ```text
 ROOTS/
@@ -35,7 +35,7 @@ ROOTS/
 
 ---
 
-# ASSETS
+## Assets
 
 ```text
 Assets/
@@ -60,7 +60,7 @@ Assets/
 
 ---
 
-# _PROJECT
+## _Project
 
 ```text
 _Project/
@@ -76,7 +76,7 @@ _Project/
 
 ---
 
-# SCRIPTS
+## Scripts
 
 ```text
 Scripts/
@@ -101,7 +101,7 @@ Scripts/
 
 ---
 
-# SCENES
+## Scenes
 
 ```text
 Scenes/
@@ -119,7 +119,7 @@ Scenes/
 
 ---
 
-# PREFABS
+## Prefabs
 
 ```text
 Prefabs/
@@ -136,7 +136,7 @@ Prefabs/
 
 ---
 
-# MODELS
+## Models
 
 ```text
 Models/
@@ -151,7 +151,7 @@ Models/
 
 ---
 
-# TEXTURES
+## Textures
 
 ```text
 Textures/
@@ -166,7 +166,7 @@ Textures/
 
 ---
 
-# AUDIO
+## Audio
 
 ```text
 Audio/
@@ -181,7 +181,7 @@ Audio/
 
 ---
 
-# UI
+## UI
 
 ```text
 UI/
@@ -197,7 +197,7 @@ UI/
 
 ---
 
-# DOCS
+## Docs
 
 ```text
 Docs/
@@ -214,7 +214,7 @@ Docs/
 
 ---
 
-# AI
+## AI
 
 ```text
 AI/
@@ -228,7 +228,7 @@ AI/
 
 ---
 
-# BUILDS
+## Builds
 
 ```text
 Builds/
@@ -240,7 +240,7 @@ Builds/
 
 ---
 
-# BACKUPS
+## Backups
 
 ```text
 Backups/
@@ -252,42 +252,42 @@ Backups/
 
 ---
 
-# THIRD PARTY
+## Third Party
 
 Store only approved external assets and plugins.
 
 Every package must include:
 
-* License
-* Version
-* Source
-* Documentation
+- License
+- Version
+- Source
+- Documentation
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-* Random folders.
-* Duplicate folders.
-* Mixed asset categories.
-* Personal folders.
-* Temporary folders.
-* Files outside their category.
+- Random folders.
+- Duplicate folders.
+- Mixed asset categories.
+- Personal folders.
+- Temporary folders.
+- Files outside their category.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every folder must:
 
-* Have a clear purpose.
-* Contain related files only.
-* Follow the naming standard.
-* Avoid unnecessary nesting.
-* Remain easy to navigate.
+- Have a clear purpose.
+- Contain related files only.
+- Follow the naming standard.
+- Avoid unnecessary nesting.
+- Remain easy to navigate.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 If a file does not clearly belong to a folder, create a task to review the project structure instead of placing it in a random location.

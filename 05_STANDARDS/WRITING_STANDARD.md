@@ -6,284 +6,203 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define a unified writing style for every text created for the ROOTS project.
 
 This includes:
 
-Story
-
-Dialogue
-
-Documents
-
-Notes
-
-Letters
-
-Audio Logs
-
-Objectives
-
-UI Text
-
-Tutorials
-
-Internal Documentation
+- Story
+- Dialogue
+- Documents
+- Notes
+- Letters
+- Audio Logs
+- Objectives
+- UI Text
+- Tutorials
+- Internal Documentation
 
 ---
 
-# WRITING PHILOSOPHY
+## Writing Philosophy
 
-Simple.
-
-Natural.
-
-Emotional.
-
-Realistic.
-
-Clear.
-
-Concise.
-
-Show more than explain.
+- Simple.
+- Natural.
+- Emotional.
+- Realistic.
+- Clear.
+- Concise.
+- Show more than explain.
 
 ---
 
-# LANGUAGE
+## Language
 
-Primary Language:
-
-English
-
-Use natural modern English.
-
-Avoid slang unless required by a character.
-
-Avoid unnecessary complexity.
+- Primary Language: English
+- Use natural modern English.
+- Avoid slang unless required by a character.
+- Avoid unnecessary complexity.
 
 ---
 
-# TONE
+## Tone
 
-Calm.
-
-Serious.
-
-Emotional.
-
-Grounded.
-
-Believable.
-
-Never melodramatic.
+- Calm.
+- Serious.
+- Emotional.
+- Grounded.
+- Believable.
+- Never melodramatic.
 
 ---
 
-# STORY WRITING
+## Story Writing
 
 Every scene must have:
 
-Purpose.
-
-Conflict.
-
-Discovery.
-
-Progression.
-
-Emotional impact.
-
-Never include filler.
+- Purpose.
+- Conflict.
+- Discovery.
+- Progression.
+- Emotional impact.
+- Never include filler.
 
 ---
 
-# DIALOGUE
+## Dialogue
 
 Dialogue must:
 
-Sound natural.
-
-Match the character.
-
-Reveal information gradually.
-
-Avoid exposition dumps.
-
-Respect silence.
-
-Never explain what the player already knows.
+- Sound natural.
+- Match the character.
+- Reveal information gradually.
+- Avoid exposition dumps.
+- Respect silence.
+- Never explain what the player already knows.
 
 ---
 
-# DOCUMENTS
+## Documents
 
 Every document must have:
 
-Author.
-
-Date (if applicable).
-
-Purpose.
-
-Believable formatting.
-
-Logical content.
-
-No unnecessary text.
+- Author.
+- Date (if applicable).
+- Purpose.
+- Believable formatting.
+- Logical content.
+- No unnecessary text.
 
 ---
 
-# AUDIO LOGS
+## Audio Logs
 
-Keep between:
-
-30–120 seconds.
-
-One main topic only.
-
-Natural speech.
-
-Realistic pauses.
-
-Emotional authenticity.
+- Keep between 30–120 seconds.
+- One main topic only.
+- Natural speech.
+- Realistic pauses.
+- Emotional authenticity.
 
 ---
 
-# OBJECTIVES
+## Objectives
 
 Objectives must be:
 
-Short.
-
-Clear.
-
-Actionable.
-
-Spoiler-free.
+- Short.
+- Clear.
+- Actionable.
+- Spoiler-free.
 
 Examples:
 
-Find the missing document.
-
-Search the basement.
-
-Visit the cemetery.
+- Find the missing document.
+- Search the basement.
+- Visit the cemetery.
 
 ---
 
-# UI TEXT
+## UI Text
 
-Use short sentences.
-
-Avoid technical language.
-
-Buttons should contain one clear action.
+- Use short sentences.
+- Avoid technical language.
+- Buttons should contain one clear action.
 
 Examples:
 
-Continue
-
-Save
-
-Inspect
-
-Rotate
-
-Read
-
-Back
+- Continue
+- Save
+- Inspect
+- Rotate
+- Read
+- Back
 
 ---
 
-# DESCRIPTIONS
+## Descriptions
 
-Describe only what the player can observe.
-
-Avoid revealing hidden information.
-
----
-
-# NARRATIVE STYLE
-
-Prefer environmental storytelling.
-
-Trust the player's intelligence.
-
-Let discoveries happen naturally.
-
-Avoid excessive narration.
+- Describe only what the player can observe.
+- Avoid revealing hidden information.
 
 ---
 
-# GRAMMAR
+## Narrative Style
 
-Correct spelling.
-
-Correct punctuation.
-
-Consistent capitalization.
-
-Consistent terminology.
-
-No grammar errors.
+- Prefer environmental storytelling.
+- Trust the player's intelligence.
+- Let discoveries happen naturally.
+- Avoid excessive narration.
 
 ---
 
-# CHARACTER CONSISTENCY
+## Grammar
+
+- Correct spelling.
+- Correct punctuation.
+- Consistent capitalization.
+- Consistent terminology.
+- No grammar errors.
+
+---
+
+## Character Consistency
 
 Each character must have:
 
-Unique vocabulary.
-
-Consistent personality.
-
-Consistent emotional reactions.
-
-Realistic behavior.
+- Unique vocabulary.
+- Consistent personality.
+- Consistent emotional reactions.
+- Realistic behavior.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Exposition dumps.
-
-Overly long dialogue.
-
-Modern internet slang.
-
-Unrealistic conversations.
-
-Contradictions.
-
-Repeated information.
-
-Forced emotional scenes.
-
-Unnecessary profanity.
+- Exposition dumps.
+- Overly long dialogue.
+- Modern internet slang.
+- Unrealistic conversations.
+- Contradictions.
+- Repeated information.
+- Forced emotional scenes.
+- Unnecessary profanity.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every written asset must be:
 
-Clear.
-
-Natural.
-
-Consistent.
-
-Emotionally believable.
-
-Easy to read.
-
-Production-ready.
+- Clear.
+- Natural.
+- Consistent.
+- Emotionally believable.
+- Easy to read.
+- Production-ready.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 Every word must serve a purpose. If removing a sentence does not reduce clarity, emotion, gameplay or story progression, remove it.

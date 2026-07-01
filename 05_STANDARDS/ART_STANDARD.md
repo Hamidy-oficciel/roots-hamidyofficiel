@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define a single visual standard for every asset in ROOTS.
 
@@ -14,346 +14,235 @@ Every artist and AI Agent must follow these rules.
 
 ---
 
-# ART STYLE
+## Art Style
 
 Primary Style:
 
-3D Low Poly
-
-Pixel Art Textures
-
-Semi-Realistic Proportions
-
-Minimal Detail
-
-Readable Shapes
-
-Performance First
+- 3D Low Poly
+- Pixel Art Textures
+- Semi-Realistic Proportions
+- Minimal Detail
+- Readable Shapes
+- Performance First
 
 ---
 
-# VISUAL GOALS
+## Visual Goals
 
-Readable.
-
-Consistent.
-
-Emotional.
-
-Timeless.
-
-Optimized.
-
-Immersive.
+- Readable
+- Consistent
+- Emotional
+- Timeless
+- Optimized
+- Immersive
 
 ---
 
-# MODELING
+## Modeling
 
-Use Low Poly geometry.
-
-Avoid unnecessary edge loops.
-
-Avoid sculpted details.
-
-Prefer clean silhouettes.
-
-Every model must be reusable.
+- Use Low Poly geometry.
+- Avoid unnecessary edge loops.
+- Avoid sculpted details.
+- Prefer clean silhouettes.
+- Every model must be reusable.
 
 ---
 
-# POLYGON BUDGET
+## Polygon Budget
 
-Small Props
-
-100–800 tris
-
-Medium Props
-
-800–3,000 tris
-
-Large Props
-
-3,000–10,000 tris
-
-Buildings
-
-5,000–25,000 tris
-
-Hero Objects
-
-Up to 30,000 tris (only if approved)
+- Small Props: 100–800 tris
+- Medium Props: 800–3,000 tris
+- Large Props: 3,000–10,000 tris
+- Buildings: 5,000–25,000 tris
+- Hero Objects: Up to 30,000 tris (only if approved)
 
 ---
 
-# SCALE
+## Scale
 
-1 Unity Unit = 1 Meter
-
-Use realistic dimensions.
-
-All assets must match the same world scale.
+- 1 Unity Unit = 1 Meter
+- Use realistic dimensions.
+- All assets must match the same world scale.
 
 ---
 
-# GRID
+## Grid
 
-Use modular sizes.
-
-Recommended:
-
-0.25m
-
-0.5m
-
-1m
-
-2m
-
-4m
-
-Walls, floors and furniture should align to the grid.
+- Use modular sizes.
+- Recommended:
+  - 0.25m
+  - 0.5m
+  - 1m
+  - 2m
+  - 4m
+- Walls, floors and furniture should align to the grid.
 
 ---
 
-# TOPOLOGY
+## Topology
 
-Clean topology.
-
-No non-manifold geometry.
-
-No duplicated faces.
-
-No isolated vertices.
-
-Correct normals.
-
-No unnecessary subdivisions.
+- Clean topology.
+- No non-manifold geometry.
+- No duplicated faces.
+- No isolated vertices.
+- Correct normals.
+- No unnecessary subdivisions.
 
 ---
 
-# UV MAPPING
+## UV Mapping
 
-No stretched UVs.
-
-Consistent texel density.
-
-Reuse UV space when appropriate.
-
-Minimize wasted UV space.
+- No stretched UVs.
+- Consistent texel density.
+- Reuse UV space when appropriate.
+- Minimize wasted UV space.
 
 ---
 
-# TEXTURES
+## Textures
 
-Pixel Art only.
-
-Limited color palette.
-
-No photo textures.
-
-No AI artifacts.
-
-Keep texture style consistent.
+- Pixel Art only.
+- Limited color palette.
+- No photo textures.
+- No AI artifacts.
+- Keep texture style consistent.
 
 ---
 
-# TEXTURE SIZE
+## Texture Size
 
-Small Props
-
-256×256
-
-Medium Props
-
-512×512
-
-Large Objects
-
-1024×1024
-
-Hero Assets
-
-2048×2048 only if justified
-
-Always use power-of-two resolutions.
+- Small Props: 256×256
+- Medium Props: 512×512
+- Large Objects: 1024×1024
+- Hero Assets: 2048×2048 only if justified
+- Always use power-of-two resolutions.
 
 ---
 
-# MATERIALS
+## Materials
 
-Reuse materials.
-
-Avoid unique materials unless necessary.
-
-Keep shader count low.
-
-Use simple shaders.
+- Reuse materials.
+- Avoid unique materials unless necessary.
+- Keep shader count low.
+- Use simple shaders.
 
 ---
 
-# COLORS
+## Colors
 
-Natural colors.
-
-Muted tones.
-
-Avoid oversaturation.
-
-Maintain visual harmony.
-
-Support the emotional atmosphere.
+- Natural colors.
+- Muted tones.
+- Avoid oversaturation.
+- Maintain visual harmony.
+- Support the emotional atmosphere.
 
 ---
 
-# LIGHTING
+## Lighting
 
-Baked Lighting preferred.
-
-Realistic light sources.
-
-Soft shadows.
-
-Minimal post-processing.
-
-No excessive bloom.
+- Baked Lighting preferred.
+- Realistic light sources.
+- Soft shadows.
+- Minimal post-processing.
+- No excessive bloom.
 
 ---
 
-# ENVIRONMENT DESIGN
+## Environment Design
 
 Every environment must:
 
-Support the story.
-
-Guide exploration naturally.
-
-Contain meaningful objects.
-
-Avoid visual clutter.
-
-Remain easy to read.
+- Support the story.
+- Guide exploration naturally.
+- Contain meaningful objects.
+- Avoid visual clutter.
+- Remain easy to read.
 
 ---
 
-# PROPS
+## Props
 
 Every prop must have:
 
-Purpose.
-
-Owner.
-
-Logical placement.
-
-Correct scale.
-
-Story value or gameplay value.
+- Purpose.
+- Owner.
+- Logical placement.
+- Correct scale.
+- Story value or gameplay value.
 
 ---
 
-# CHARACTERS
+## Characters
 
-Low Poly.
-
-Simple facial features.
-
-Readable silhouettes.
-
-Realistic proportions.
-
-Consistent clothing style.
-
-No exaggerated cartoon proportions.
+- Low Poly.
+- Simple facial features.
+- Readable silhouettes.
+- Realistic proportions.
+- Consistent clothing style.
+- No exaggerated cartoon proportions.
 
 ---
 
-# ANIMATIONS
+## Animations
 
-Natural.
-
-Subtle.
-
-Readable.
-
-No exaggerated movements.
-
-Smooth transitions.
+- Natural.
+- Subtle.
+- Readable.
+- No exaggerated movements.
+- Smooth transitions.
 
 ---
 
-# OPTIMIZATION
+## Optimization
 
-Reuse meshes.
-
-Reuse textures.
-
-Reuse materials.
-
-Use LOD when appropriate.
-
-Support Occlusion Culling.
-
-Avoid unnecessary mesh complexity.
+- Reuse meshes.
+- Reuse textures.
+- Reuse materials.
+- Use LOD when appropriate.
+- Support Occlusion Culling.
+- Avoid unnecessary mesh complexity.
 
 ---
 
-# FILE REQUIREMENTS
+## File Requirements
 
 Every asset must include:
 
-Model.
-
-UVs.
-
-Pivot correctly placed.
-
-Scale verified.
-
-Material assigned.
-
-Naming follows NAMING_STANDARD.
+- Model.
+- UVs.
+- Pivot correctly placed.
+- Scale verified.
+- Material assigned.
+- Naming follows NAMING_STANDARD.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-High Poly assets.
-
-Photorealism.
-
-Inconsistent pixel density.
-
-Oversized textures.
-
-Broken topology.
-
-Floating geometry.
-
-Copyrighted assets.
-
-Placeholder assets in production builds.
+- High Poly assets.
+- Photorealism.
+- Inconsistent pixel density.
+- Oversized textures.
+- Broken topology.
+- Floating geometry.
+- Copyrighted assets.
+- Placeholder assets in production builds.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every asset must be:
 
-Readable.
-
-Optimized.
-
-Consistent.
-
-Reusable.
-
-Production-ready.
-
-Unity-ready.
+- Readable.
+- Optimized.
+- Consistent.
+- Reusable.
+- Production-ready.
+- Unity-ready.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 If an asset does not improve the player's immersion or cannot meet the project's performance targets, it does not belong in ROOTS.

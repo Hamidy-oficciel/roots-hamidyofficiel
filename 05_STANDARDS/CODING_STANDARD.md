@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define a single coding standard for the entire ROOTS project.
 
@@ -14,330 +14,243 @@ Every programmer and AI Agent must follow these rules.
 
 ---
 
-# LANGUAGE
+## Language
 
-Primary Language:
-
-C#
-
-Framework:
-
-Unity
+- Primary Language: C#
+- Framework: Unity
 
 ---
 
-# PHILOSOPHY
+## Philosophy
 
-Readable code.
-
-Maintainable code.
-
-Modular architecture.
-
-Performance first.
-
-Simplicity over cleverness.
-
-Consistency over personal preference.
+- Readable code.
+- Maintainable code.
+- Modular architecture.
+- Performance first.
+- Simplicity over cleverness.
+- Consistency over personal preference.
 
 ---
 
-# SOLID
+## SOLID
 
 Follow SOLID principles whenever practical.
 
-Single Responsibility.
-
-Open/Closed.
-
-Liskov Substitution.
-
-Interface Segregation.
-
-Dependency Inversion.
+- Single Responsibility.
+- Open/Closed.
+- Liskov Substitution.
+- Interface Segregation.
+- Dependency Inversion.
 
 ---
 
-# CLASS RULES
+## Class Rules
 
-One class = One responsibility.
-
-Maximum recommended length:
-
-500 lines.
-
-Split large classes into smaller components.
+- One class = One responsibility.
+- Maximum recommended length: 500 lines.
+- Split large classes into smaller components.
 
 ---
 
-# METHOD RULES
+## Method Rules
 
-Keep methods focused.
-
-Recommended maximum:
-
-40 lines.
-
-Avoid deeply nested logic.
-
-Prefer early returns.
+- Keep methods focused.
+- Recommended maximum: 40 lines.
+- Avoid deeply nested logic.
+- Prefer early returns.
 
 ---
 
-# FILE RULES
+## File Rules
 
-One public class per file.
-
-File name must match class name.
-
----
-
-# NAMING
-
-Follow `NAMING_STANDARD.md`.
-
-Never invent new naming styles.
+- One public class per file.
+- File name must match class name.
 
 ---
 
-# VARIABLES
+## Naming
 
-Initialize when appropriate.
-
-Keep scope as small as possible.
-
-Avoid global mutable state.
-
-Use meaningful names.
+- Follow NAMING_STANDARD.md.
+- Never invent new naming styles.
 
 ---
 
-# MAGIC VALUES
+## Variables
+
+- Initialize when appropriate.
+- Keep scope as small as possible.
+- Avoid global mutable state.
+- Use meaningful names.
+
+---
+
+## Magic Values
 
 Forbidden.
 
 Use:
 
-Constants
-
-Enums
-
-ScriptableObjects
-
-Configuration files
+- Constants
+- Enums
+- ScriptableObjects
+- Configuration files
 
 ---
 
-# COMMENTS
+## Comments
 
-Comment WHY.
-
-Not WHAT.
-
-Avoid obvious comments.
-
-Remove outdated comments.
+- Comment WHY.
+- Not WHAT.
+- Avoid obvious comments.
+- Remove outdated comments.
 
 ---
 
-# ERROR HANDLING
+## Error Handling
 
-Validate inputs.
-
-Handle expected failures gracefully.
-
-Log meaningful errors.
-
-Never silently ignore exceptions.
+- Validate inputs.
+- Handle expected failures gracefully.
+- Log meaningful errors.
+- Never silently ignore exceptions.
 
 ---
 
-# UNITY RULES
+## Unity Rules
 
-Avoid unnecessary Update().
-
-Cache references.
-
-Prefer events over polling.
-
-Use Coroutines only when appropriate.
-
-Avoid FindObjectOfType during gameplay.
-
-Avoid GameObject.Find in production.
-
-Avoid excessive GetComponent calls.
+- Avoid unnecessary Update().
+- Cache references.
+- Prefer events over polling.
+- Use Coroutines only when appropriate.
+- Avoid FindObjectOfType during gameplay.
+- Avoid GameObject.Find in production.
+- Avoid excessive GetComponent calls.
 
 ---
 
-# SCRIPTABLEOBJECTS
+## ScriptableObjects
 
 Use for:
 
-Configuration.
-
-Game Data.
-
-Item Definitions.
-
-Audio Data.
-
-UI Data.
+- Configuration.
+- Game Data.
+- Item Definitions.
+- Audio Data.
+- UI Data.
 
 Avoid storing runtime state.
 
 ---
 
-# PREFABS
+## Prefabs
 
-Keep reusable.
-
-Avoid duplicated logic.
-
-No scene-specific assumptions.
+- Keep reusable.
+- Avoid duplicated logic.
+- No scene-specific assumptions.
 
 ---
 
-# EVENTS
+## Events
 
-Prefer events for communication.
-
-Unsubscribe correctly.
-
-Avoid memory leaks.
-
-Avoid unnecessary static events.
+- Prefer events for communication.
+- Unsubscribe correctly.
+- Avoid memory leaks.
+- Avoid unnecessary static events.
 
 ---
 
-# PERFORMANCE
+## Performance
 
-Profile before optimizing.
-
-Avoid unnecessary allocations.
-
-Reuse objects.
-
-Pool frequently spawned objects.
-
-Avoid LINQ in performance-critical code.
-
-Avoid expensive operations inside Update().
+- Profile before optimizing.
+- Avoid unnecessary allocations.
+- Reuse objects.
+- Pool frequently spawned objects.
+- Avoid LINQ in performance-critical code.
+- Avoid expensive operations inside Update().
 
 ---
 
-# DEPENDENCIES
+## Dependencies
 
-Minimize dependencies.
-
-Avoid circular references.
-
-Use interfaces when appropriate.
-
-Keep systems loosely coupled.
+- Minimize dependencies.
+- Avoid circular references.
+- Use interfaces when appropriate.
+- Keep systems loosely coupled.
 
 ---
 
-# ARCHITECTURE
+## Architecture
 
 Separate:
 
-Gameplay
-
-UI
-
-Audio
-
-Data
-
-Save System
-
-Input
-
-Rendering
-
-Debug
+- Gameplay
+- UI
+- Audio
+- Data
+- Save System
+- Input
+- Rendering
+- Debug
 
 Never mix responsibilities.
 
 ---
 
-# DEBUG CODE
+## Debug Code
 
-Allowed during development.
-
-Must be removed or disabled before release.
+- Allowed during development.
+- Must be removed or disabled before release.
 
 ---
 
-# TESTING
+## Testing
 
 Every new system should be:
 
-Manually tested.
-
-Regression-safe.
-
-Compatible with existing systems.
+- Manually tested.
+- Regression-safe.
+- Compatible with existing systems.
 
 ---
 
-# DOCUMENTATION
+## Documentation
 
 Every significant system must include:
 
-Purpose.
-
-Dependencies.
-
-Public API.
-
-Configuration Notes.
-
-Known Limitations.
+- Purpose.
+- Dependencies.
+- Public API.
+- Configuration Notes.
+- Known Limitations.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Hardcoded paths.
-
-Hardcoded references.
-
-Duplicated logic.
-
-Dead code.
-
-Unused variables.
-
-Unused methods.
-
-Unused assets.
-
-Temporary hacks.
-
-Hidden side effects.
+- Hardcoded paths.
+- Hardcoded references.
+- Duplicated logic.
+- Dead code.
+- Unused variables.
+- Unused methods.
+- Unused assets.
+- Temporary hacks.
+- Hidden side effects.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every code submission must be:
 
-Readable.
-
-Modular.
-
-Reusable.
-
-Optimized.
-
-Documented.
-
-Production-ready.
+- Readable.
+- Modular.
+- Reusable.
+- Optimized.
+- Documented.
+- Production-ready.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 If another developer cannot understand, modify and extend the code easily, the implementation is not ready for ROOTS.

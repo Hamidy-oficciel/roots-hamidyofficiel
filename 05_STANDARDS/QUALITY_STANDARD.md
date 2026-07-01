@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define the minimum quality requirements for every deliverable in the ROOTS project.
 
@@ -14,280 +14,198 @@ Every AI Agent and contributor must follow these standards.
 
 ---
 
-# QUALITY PHILOSOPHY
+## Quality Philosophy
 
-Quality before quantity.
-
-Finished before perfect.
-
-Consistency before creativity.
-
-Maintainability before shortcuts.
-
-Performance before unnecessary features.
+- Quality before quantity.
+- Finished before perfect.
+- Consistency before creativity.
+- Maintainability before shortcuts.
+- Performance before unnecessary features.
 
 ---
 
-# GENERAL REQUIREMENTS
+## General Requirements
 
 Every deliverable must be:
 
-Correct
-
-Complete
-
-Consistent
-
-Optimized
-
-Reusable
-
-Documented
-
-Production-ready
+- Correct
+- Complete
+- Consistent
+- Optimized
+- Reusable
+- Documented
+- Production-ready
 
 ---
 
-# STORY QUALITY
+## Story Quality
 
 The story must be:
 
-Realistic
-
-Emotionally believable
-
-Consistent
-
-Free of contradictions
-
-Free of plot holes
-
-Supported by evidence
+- Realistic
+- Emotionally believable
+- Consistent
+- Free of contradictions
+- Free of plot holes
+- Supported by evidence
 
 ---
 
-# GAMEPLAY QUALITY
+## Gameplay Quality
 
 Gameplay must be:
 
-Simple
-
-Intuitive
-
-Meaningful
-
-Story-driven
-
-Balanced
-
-Easy to understand
+- Simple
+- Intuitive
+- Meaningful
+- Story-driven
+- Balanced
+- Easy to understand
 
 ---
 
-# CODE QUALITY
+## Code Quality
 
 Code must be:
 
-Readable
-
-Modular
-
-Maintainable
-
-Optimized
-
-Reusable
-
-Well documented
-
-Free of dead code
+- Readable
+- Modular
+- Maintainable
+- Optimized
+- Reusable
+- Well documented
+- Free of dead code
 
 ---
 
-# ART QUALITY
+## Art Quality
 
 Art must be:
 
-Low Poly
-
-Pixel Art compatible
-
-Readable
-
-Consistent
-
-Optimized
-
-Properly scaled
-
-Production-ready
+- Low Poly
+- Pixel Art compatible
+- Readable
+- Consistent
+- Optimized
+- Properly scaled
+- Production-ready
 
 ---
 
-# AUDIO QUALITY
+## Audio Quality
 
 Audio must be:
 
-Clean
-
-Balanced
-
-Realistic
-
-Optimized
-
-Consistent
-
-Properly normalized
+- Clean
+- Balanced
+- Realistic
+- Optimized
+- Consistent
+- Properly normalized
 
 ---
 
-# UI QUALITY
+## UI Quality
 
 UI must be:
 
-Minimal
-
-Readable
-
-Responsive
-
-Accessible
-
-Consistent
-
-Fast
+- Minimal
+- Readable
+- Responsive
+- Accessible
+- Consistent
+- Fast
 
 ---
 
-# DOCUMENTATION QUALITY
+## Documentation Quality
 
 Documentation must be:
 
-Complete
-
-Up to date
-
-Accurate
-
-Easy to navigate
-
-Easy to maintain
+- Complete
+- Up to date
+- Accurate
+- Easy to navigate
+- Easy to maintain
 
 ---
 
-# PERFORMANCE TARGETS
+## Performance Targets
 
-Target FPS
-
-60 FPS
-
-Loading Times
-
-As short as possible
-
-Memory Usage
-
-Efficient
-
-No noticeable frame drops
-
-No unnecessary CPU usage
-
-No unnecessary GPU usage
+- Target FPS: 60 FPS
+- Loading Times: As short as possible
+- Memory Usage: Efficient
+- No noticeable frame drops
+- No unnecessary CPU usage
+- No unnecessary GPU usage
 
 ---
 
-# REVIEW CRITERIA
+## Review Criteria
 
 Every task is reviewed for:
 
-Correctness
-
-Completeness
-
-Performance
-
-Consistency
-
-Readability
-
-Compliance with project rules
+- Correctness
+- Completeness
+- Performance
+- Consistency
+- Readability
+- Compliance with project rules
 
 ---
 
-# ACCEPTANCE CRITERIA
+## Acceptance Criteria
 
 A task is APPROVED only if:
 
-All requirements are met.
-
-No project rules are violated.
-
-No critical issues remain.
-
-Output is production-ready.
-
-Documentation is updated when required.
+- All requirements are met.
+- No project rules are violated.
+- No critical issues remain.
+- Output is production-ready.
+- Documentation is updated when required.
 
 ---
 
-# REJECTION CRITERIA
+## Rejection Criteria
 
 Reject immediately if:
 
-Project scope changed.
-
-Story consistency broken.
-
-Performance significantly reduced.
-
-Naming standards ignored.
-
-Incomplete implementation.
-
-Placeholder content.
-
-Temporary solutions.
+- Project scope changed.
+- Story consistency broken.
+- Performance significantly reduced.
+- Naming standards ignored.
+- Incomplete implementation.
+- Placeholder content.
+- Temporary solutions.
 
 ---
 
-# CONTINUOUS IMPROVEMENT
+## Continuous Improvement
 
 Every review should identify:
 
-Possible optimizations
-
-Future improvements
-
-Technical debt
-
-Potential risks
+- Possible optimizations
+- Future improvements
+- Technical debt
+- Potential risks
 
 Without changing the approved scope.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Low-quality placeholders.
-
-Unfinished systems.
-
-Copy-paste duplication.
-
-Unoptimized assets.
-
-Broken references.
-
-Inconsistent naming.
-
-Incomplete documentation.
-
-Unverified assumptions.
+- Low-quality placeholders.
+- Unfinished systems.
+- Copy-paste duplication.
+- Unoptimized assets.
+- Broken references.
+- Inconsistent naming.
+- Incomplete documentation.
+- Unverified assumptions.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 Nothing is considered complete until it satisfies the Master Bible, Project Rules, assigned Task, QA review, and this Quality Standard.

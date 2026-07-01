@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define one universal naming convention for the entire ROOTS project.
 
@@ -14,387 +14,172 @@ Every file, folder, asset, script, scene, document and AI output must follow the
 
 ---
 
-# GENERAL RULES
+## General Rules
 
-Use English only.
-
-Use descriptive names.
-
-Keep names short and meaningful.
-
-No spaces.
-
-No special characters.
-
-No duplicate names.
-
-Do not use temporary names.
+- Use English only.
+- Use descriptive names.
+- Keep names short and meaningful.
+- No spaces.
+- No special characters.
+- No duplicate names.
+- Do not use temporary names.
 
 ---
 
-# LETTER CASE
+## Letter Case
 
-Folders
+### Folders
 
-PascalCase
+- PascalCase
+- Example: Inventory, Gameplay, Dialogue
 
-Example
+### Files
 
-Inventory
-
-Gameplay
-
-Dialogue
+- PascalCase
+- Examples: StoryBible.md, InventorySystem.cs, HouseScene.unity
 
 ---
 
-Files
+## Scripts
 
-PascalCase
-
-Examples
-
-StoryBible.md
-
-InventorySystem.cs
-
-HouseScene.unity
+- Format: <Entity><Purpose>
+- Examples: PlayerController.cs, InventoryManager.cs, DialogueSystem.cs, SaveManager.cs
 
 ---
 
-# SCRIPTS
+## Classes
 
-Format
-
-<Entity><Purpose>
-
-Examples
-
-PlayerController.cs
-
-InventoryManager.cs
-
-DialogueSystem.cs
-
-SaveManager.cs
+- PascalCase
+- Examples: GameManager, EvidenceDatabase, PhotoViewer
 
 ---
 
-# CLASSES
+## Interfaces
 
-PascalCase
-
-Examples
-
-GameManager
-
-EvidenceDatabase
-
-PhotoViewer
+- Prefix: I
+- Examples: IInteractable, ISaveable, IAudioPlayer
 
 ---
 
-# INTERFACES
+## Methods
 
-Prefix
-
-I
-
-Examples
-
-IInteractable
-
-ISaveable
-
-IAudioPlayer
+- PascalCase
+- Examples: OpenDoor(), LoadGame(), CollectEvidence(), PlayAudio()
 
 ---
 
-# METHODS
+## Variables
 
-PascalCase
-
-Examples
-
-OpenDoor()
-
-LoadGame()
-
-CollectEvidence()
-
-PlayAudio()
+- camelCase
+- Examples: playerName, currentObjective, selectedItem
 
 ---
 
-# VARIABLES
+## Private Variables
 
-camelCase
-
-Examples
-
-playerName
-
-currentObjective
-
-selectedItem
+- Prefix: _
+- Examples: _player, _inventory, _currentScene
 
 ---
 
-# PRIVATE VARIABLES
+## Booleans
 
-Prefix
-
-_
-
-Examples
-
-_player
-
-_inventory
-
-_currentScene
+- Prefix: is, has, can, should
+- Examples: isLocked, hasKey, canOpen, shouldSave
 
 ---
 
-# BOOLEANS
+## Constants
 
-Prefix
-
-is
-
-has
-
-can
-
-should
-
-Examples
-
-isLocked
-
-hasKey
-
-canOpen
-
-shouldSave
+- UPPER_CASE
+- Examples: MAX_SAVE_SLOTS, DEFAULT_VOLUME, TARGET_FPS
 
 ---
 
-# CONSTANTS
+## Enums
 
-UPPER_CASE
-
-Examples
-
-MAX_SAVE_SLOTS
-
-DEFAULT_VOLUME
-
-TARGET_FPS
+- PascalCase
+- Examples: GameState, DoorState, PuzzleState
 
 ---
 
-# ENUMS
+## Enum Values
 
-PascalCase
-
-Examples
-
-GameState
-
-DoorState
-
-PuzzleState
+- PascalCase
+- Examples: Locked, Unlocked, Completed, Hidden
 
 ---
 
-# ENUM VALUES
+## Events
 
-PascalCase
-
-Examples
-
-Locked
-
-Unlocked
-
-Completed
-
-Hidden
+- Prefix: On
+- Examples: OnDoorOpened, OnEvidenceCollected, OnGameSaved
 
 ---
 
-# EVENTS
+## Scenes
 
-Prefix
-
-On
-
-Examples
-
-OnDoorOpened
-
-OnEvidenceCollected
-
-OnGameSaved
+- Prefix: SCN_
+- Examples: SCN_MainMenu, SCN_House, SCN_Hospital, SCN_Cemetery
 
 ---
 
-# SCENES
+## Prefabs
 
-Prefix
-
-SCN_
-
-Examples
-
-SCN_MainMenu
-
-SCN_House
-
-SCN_Hospital
-
-SCN_Cemetery
+- Suffix: Prefab
+- Examples: DoorPrefab, ChairPrefab, PhotoPrefab
 
 ---
 
-# PREFABS
+## Materials
 
-Suffix
-
-Prefab
-
-Examples
-
-DoorPrefab
-
-ChairPrefab
-
-PhotoPrefab
+- Prefix: MAT_
+- Examples: MAT_Wood, MAT_Glass, MAT_Metal
 
 ---
 
-# MATERIALS
+## Textures
 
-Prefix
-
-MAT_
-
-Examples
-
-MAT_Wood
-
-MAT_Glass
-
-MAT_Metal
+- Prefix: TEX_
+- Examples: TEX_Wood01, TEX_Brick02, TEX_Floor03
 
 ---
 
-# TEXTURES
+## Sprites
 
-Prefix
-
-TEX_
-
-Examples
-
-TEX_Wood01
-
-TEX_Brick02
-
-TEX_Floor03
+- Prefix: SPR_
+- Examples: SPR_Inventory, SPR_Key, SPR_Button
 
 ---
 
-# SPRITES
+## Audio
 
-Prefix
-
-SPR_
-
-Examples
-
-SPR_Inventory
-
-SPR_Key
-
-SPR_Button
+- Music: MUS_
+- Ambience: AMB_
+- SFX: SFX_
+- Voice: VO_
+- Examples: MUS_Menu, AMB_HouseNight, SFX_DoorOpen, VO_Father01
 
 ---
 
-# AUDIO
+## Animations
 
-Music
-
-MUS_
-
-Ambience
-
-AMB_
-
-SFX
-
-SFX_
-
-Voice
-
-VO_
-
-Examples
-
-MUS_Menu
-
-AMB_HouseNight
-
-SFX_DoorOpen
-
-VO_Father01
+- Prefix: AN_
+- Examples: AN_OpenDoor, AN_PlayerWalk
 
 ---
 
-# ANIMATIONS
+## UI
 
-Prefix
-
-AN_
-
-Examples
-
-AN_OpenDoor
-
-AN_PlayerWalk
+- Prefix: UI_
+- Examples: UI_MainMenu, UI_Inventory, UI_Settings
 
 ---
 
-# UI
+## Documents
 
-Prefix
-
-UI_
-
-Examples
-
-UI_MainMenu
-
-UI_Inventory
-
-UI_Settings
-
----
-
-# DOCUMENTS
-
-Prefix
-
-DOC_
-
-Examples
-
-DOC_AdoptionPaper
-
-DOC_HospitalReport
-
-DOC_FamilyLetter
+- Prefix: DOC_
+- Examples: DOC_AdoptionPaper, DOC_HospitalReport, DOC_FamilyLetter
 
 ---
 

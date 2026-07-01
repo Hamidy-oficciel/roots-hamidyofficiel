@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define the official Git workflow for the ROOTS project.
 
@@ -14,266 +14,193 @@ Every AI Agent and contributor must follow these rules.
 
 ---
 
-# VERSION CONTROL
+## Version Control
 
-Git is the only official version control system.
-
-Every change must be committed.
-
-Never work outside Git.
+- Git is the only official version control system.
+- Every change must be committed.
+- Never work outside Git.
 
 ---
 
-# DEFAULT BRANCHES
+## Default Branches
 
-main
-
-Production-ready code only.
-
-develop
-
-Integration branch.
-
-feature/*
-
-New features.
-
-fix/*
-
-Bug fixes.
-
-hotfix/*
-
-Critical production fixes.
-
-docs/*
-
-Documentation only.
+- main: Production-ready code only.
+- develop: Integration branch.
+- feature/*: New features.
+- fix/*: Bug fixes.
+- hotfix/*: Critical production fixes.
+- docs/*: Documentation only.
 
 ---
 
-# BRANCH NAMING
+## Branch Naming
 
-feature/inventory-system
+- feature/inventory-system
+- feature/evidence-board
+- feature/house-level
+- fix/save-system
+- docs/master-bible
+- hotfix/crash-on-load
 
-feature/evidence-board
-
-feature/house-level
-
-fix/save-system
-
-docs/master-bible
-
-hotfix/crash-on-load
-
-Use lowercase.
-
-Separate words with hyphens.
+Use lowercase and separate words with hyphens.
 
 ---
 
-# COMMIT FORMAT
+## Commit Format
 
-[TASK-ID] Short Description
+- [TASK-ID] Short Description
 
-Examples
+Examples:
 
-[TASK-0007] Implement interaction system
+- [TASK-0007] Implement interaction system
+- [TASK-0014] Add hospital documents
+- [TASK-0023] Optimize house lighting
 
-[TASK-0014] Add hospital documents
-
-[TASK-0023] Optimize house lighting
-
-Maximum 72 characters.
-
-Use imperative tense.
+- Maximum 72 characters.
+- Use imperative tense.
 
 ---
 
-# COMMIT RULES
+## Commit Rules
 
-One logical change per commit.
-
-Never mix unrelated work.
-
-Commit frequently.
-
-Keep commits reversible.
+- One logical change per commit.
+- Never mix unrelated work.
+- Commit frequently.
+- Keep commits reversible.
 
 ---
 
-# PULL REQUEST RULES
+## Pull Request Rules
 
 Every Pull Request must include:
 
-Title
-
-Task ID
-
-Summary
-
-Files Changed
-
-Testing Performed
-
-Known Issues
-
-Reviewer
+- Title
+- Task ID
+- Summary
+- Files Changed
+- Testing Performed
+- Known Issues
+- Reviewer
 
 ---
 
-# MERGE RULES
+## Merge Rules
 
 Merge only after:
 
-QA Approval
-
-Producer Approval
-
-Successful testing
-
-No unresolved conflicts
+- QA Approval
+- Producer Approval
+- Successful testing
+- No unresolved conflicts
 
 ---
 
-# CONFLICT RULES
+## Conflict Rules
 
 If a merge conflict occurs:
 
-Stop.
-
-Resolve manually.
-
-Never overwrite another contributor's work without review.
-
-Document the resolution.
+- Stop.
+- Resolve manually.
+- Never overwrite another contributor's work without review.
+- Document the resolution.
 
 ---
 
-# TAGS
+## Tags
 
 Milestone releases:
 
-v0.1.0
-
-v0.2.0
-
-v0.3.0
+- v0.1.0
+- v0.2.0
+- v0.3.0
 
 Release Candidate:
 
-v1.0.0-rc1
+- v1.0.0-rc1
 
 Production:
 
-v1.0.0
+- v1.0.0
 
 Follow Semantic Versioning.
 
 ---
 
-# IGNORE FILES
+## Ignore Files
 
 Do not commit:
 
-Library/
-
-Temp/
-
-Logs/
-
-Obj/
-
-Build outputs
-
-IDE cache files
-
-Generated caches
-
-User-specific settings
+- Library/
+- Temp/
+- Logs/
+- Obj/
+- Build outputs
+- IDE cache files
+- Generated caches
+- User-specific settings
 
 ---
 
-# LARGE FILES
+## Large Files
 
 Use Git LFS for:
 
-Large audio files
-
-Large textures
-
-Large models
-
-Videos
+- Large audio files
+- Large textures
+- Large models
+- Videos
 
 Do not commit oversized binaries to normal Git history.
 
 ---
 
-# ROLLBACK
+## Rollback
 
 If a change breaks the project:
 
-Identify the commit.
-
-Revert safely.
-
-Document the reason.
-
-Do not rewrite shared history.
+- Identify the commit.
+- Revert safely.
+- Document the reason.
+- Do not rewrite shared history.
 
 ---
 
-# REVIEW CHECKLIST
+## Review Checklist
 
 Before merging verify:
 
-Project builds successfully.
-
-Naming standards followed.
-
-Documentation updated.
-
-No unnecessary files.
-
-No debug artifacts.
-
-No temporary code.
+- Project builds successfully.
+- Naming standards followed.
+- Documentation updated.
+- No unnecessary files.
+- No debug artifacts.
+- No temporary code.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Direct commits to main.
-
-Force push to shared branches.
-
-Unrelated changes in one commit.
-
-Deleting history.
-
-Committing secrets or API keys.
-
-Committing temporary files.
+- Direct commits to main.
+- Force push to shared branches.
+- Unrelated changes in one commit.
+- Deleting history.
+- Committing secrets or API keys.
+- Committing temporary files.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every commit must be:
 
-Traceable.
-
-Atomic.
-
-Reviewable.
-
-Reversible.
-
-Documented.
+- Traceable.
+- Atomic.
+- Reviewable.
+- Reversible.
+- Documented.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 If a commit cannot be understood by reading its message and Task ID alone, it is not acceptable for the ROOTS project.

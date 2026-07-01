@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define a unified UI/UX standard for the ROOTS project.
 
@@ -14,288 +14,209 @@ Every interface must follow these rules.
 
 ---
 
-# UI PHILOSOPHY
+## UI Philosophy
 
-Minimal.
-
-Immersive.
-
-Functional.
-
-Consistent.
-
-Fast.
-
-Accessible.
+- Minimal.
+- Immersive.
+- Functional.
+- Consistent.
+- Fast.
+- Accessible.
 
 The interface should never distract from the story.
 
 ---
 
-# DESIGN GOALS
+## Design Goals
 
-Support gameplay.
-
-Support investigation.
-
-Reduce unnecessary clicks.
-
-Provide clear feedback.
-
-Maintain immersion.
+- Support gameplay.
+- Support investigation.
+- Reduce unnecessary clicks.
+- Provide clear feedback.
+- Maintain immersion.
 
 ---
 
-# VISUAL STYLE
+## Visual Style
 
-Dark neutral colors.
-
-Soft contrast.
-
-Minimal transparency.
-
-Pixel-compatible icons.
-
-Simple typography.
-
-Subtle animations.
-
-No visual clutter.
+- Dark neutral colors.
+- Soft contrast.
+- Minimal transparency.
+- Pixel-compatible icons.
+- Simple typography.
+- Subtle animations.
+- No visual clutter.
 
 ---
 
-# MAIN MENU
+## Main Menu
 
 Must contain only:
 
-Continue
-
-New Game
-
-Load Game
-
-Settings
-
-Credits
-
-Exit
+- Continue
+- New Game
+- Load Game
+- Settings
+- Credits
+- Exit
 
 ---
 
-# PAUSE MENU
+## Pause Menu
 
-Resume
-
-Save
-
-Load
-
-Settings
-
-Main Menu
-
-Exit Game
+- Resume
+- Save
+- Load
+- Settings
+- Main Menu
+- Exit Game
 
 ---
 
-# HUD
+## HUD
 
-Display only essential information.
-
-Hide inactive UI.
-
-Avoid permanent overlays.
-
-No unnecessary indicators.
+- Display only essential information.
+- Hide inactive UI.
+- Avoid permanent overlays.
+- No unnecessary indicators.
 
 ---
 
-# INVENTORY
+## Inventory
 
 Categories:
 
-Documents
-
-Photos
-
-Keys
-
-Evidence
-
-Audio Logs
-
-Personal Items
+- Documents
+- Photos
+- Keys
+- Evidence
+- Audio Logs
+- Personal Items
 
 Features:
 
-Search
-
-Sort
-
-Zoom
-
-Rotate
-
-Inspect
+- Search
+- Sort
+- Zoom
+- Rotate
+- Inspect
 
 ---
 
-# DOCUMENT VIEWER
+## Document Viewer
 
 Support:
 
-Zoom
-
-Rotate
-
-Next Page
-
-Previous Page
-
-Front / Back
-
-Readable typography.
+- Zoom
+- Rotate
+- Next Page
+- Previous Page
+- Front / Back
+- Readable typography.
 
 ---
 
-# PHOTO VIEWER
+## Photo Viewer
 
 Support:
 
-360° Rotation
-
-Zoom
-
-Front / Back
-
-Close Inspection
+- 360° Rotation
+- Zoom
+- Front / Back
+- Close Inspection
 
 ---
 
-# EVIDENCE BOARD
+## Evidence Board
 
 Allow the player to:
 
-Review evidence.
-
-Connect clues manually.
-
-Read notes.
-
-Track investigation progress.
-
-Never solve puzzles automatically.
+- Review evidence.
+- Connect clues manually.
+- Read notes.
+- Track investigation progress.
+- Never solve puzzles automatically.
 
 ---
 
-# SETTINGS
+## Settings
 
-Graphics
-
-Audio
-
-Controls
-
-Gameplay
-
-Accessibility
-
-Language
+- Graphics
+- Audio
+- Controls
+- Gameplay
+- Accessibility
+- Language
 
 Changes should apply immediately whenever possible.
 
 ---
 
-# ACCESSIBILITY
+## Accessibility
 
-Resizable subtitles.
-
-Subtitle background.
-
-Adjustable font size.
-
-Master volume controls.
-
-Key rebinding.
-
-Controller support.
-
-Readable color contrast.
+- Resizable subtitles.
+- Subtitle background.
+- Adjustable font size.
+- Master volume controls.
+- Key rebinding.
+- Controller support.
+- Readable color contrast.
 
 ---
 
-# INPUT FEEDBACK
+## Input Feedback
 
 Every interaction should provide:
 
-Visual feedback.
-
-Audio feedback.
-
-Response within 100 ms whenever possible.
+- Visual feedback.
+- Audio feedback.
+- Response within 100 ms whenever possible.
 
 ---
 
-# ANIMATIONS
+## Animations
 
-Short.
-
-Smooth.
-
-Purposeful.
-
-Avoid excessive motion.
+- Short.
+- Smooth.
+- Purposeful.
+- Avoid excessive motion.
 
 ---
 
-# PERFORMANCE
+## Performance
 
-Low memory usage.
-
-Fast opening.
-
-Fast navigation.
-
-Minimal draw calls.
-
-No unnecessary UI updates.
+- Low memory usage.
+- Fast opening.
+- Fast navigation.
+- Minimal draw calls.
+- No unnecessary UI updates.
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Flashing effects.
-
-Mobile-style UI.
-
-Large permanent HUD.
-
-Excessive notifications.
-
-Pop-up spam.
-
-Decorative animations without purpose.
+- Flashing effects.
+- Mobile-style UI.
+- Large permanent HUD.
+- Excessive notifications.
+- Pop-up spam.
+- Decorative animations without purpose.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every interface must be:
 
-Readable.
-
-Responsive.
-
-Consistent.
-
-Accessible.
-
-Optimized.
-
-Production-ready.
+- Readable.
+- Responsive.
+- Consistent.
+- Accessible.
+- Optimized.
+- Production-ready.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 Every UI element must help the player accomplish a task quickly while preserving immersion and never competing with the story for attention.

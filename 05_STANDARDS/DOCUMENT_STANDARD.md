@@ -6,7 +6,7 @@ Version: 1.0
 
 ---
 
-# PURPOSE
+## Purpose
 
 Define a unified documentation standard for the entire ROOTS project.
 
@@ -14,283 +14,204 @@ Every document created by humans or AI Agents must follow this format.
 
 ---
 
-# DOCUMENT GOALS
+## Document Goals
 
-Clear.
-
-Consistent.
-
-Easy to read.
-
-Easy to update.
-
-Easy to search.
-
-Versioned.
+- Clear
+- Consistent
+- Easy to read
+- Easy to update
+- Easy to search
+- Versioned
 
 ---
 
-# LANGUAGE
+## Language
 
-Primary Language:
-
-English
-
-Use simple technical English.
-
-Avoid slang.
-
-Avoid ambiguous wording.
+- Primary Language: English
+- Use simple technical English.
+- Avoid slang.
+- Avoid ambiguous wording.
 
 ---
 
-# FILE FORMAT
+## File Format
 
-Markdown (.md)
-
-UTF-8 Encoding
-
-LF Line Endings
+- Markdown (.md)
+- UTF-8 Encoding
+- LF Line Endings
 
 ---
 
-# HEADER
+## Header
 
 Every document begins with:
 
-Document Title
+- Document Title
+- Version
+- Author (Human or AI Agent)
+- Creation Date
+- Last Updated
+- Status
 
-Version
+Example:
 
-Author (Human or AI Agent)
-
-Creation Date
-
-Last Updated
-
-Status
-
----
-
-Example
-
-Title
-
-Version
-
-Status
-
-Author
+- Title
+- Version
+- Status
+- Author
 
 ---
 
-# DOCUMENT STRUCTURE
+## Document Structure
 
 1. Purpose
-
 2. Scope
-
 3. Definitions (if needed)
-
 4. Main Content
-
 5. Rules
-
 6. Examples (optional)
-
 7. Notes
 
 ---
 
-# WRITING RULES
+## Writing Rules
 
-Short sentences.
-
-One idea per paragraph.
-
-Use headings.
-
-Use bullet lists.
-
-Avoid repetition.
-
-Avoid unnecessary explanations.
-
-Be precise.
+- Short sentences.
+- One idea per paragraph.
+- Use headings.
+- Use bullet lists.
+- Avoid repetition.
+- Avoid unnecessary explanations.
+- Be precise.
 
 ---
 
-# TITLES
+## Titles
 
-Use Title Case.
-
-Examples
-
-Inventory System
-
-Audio Standards
-
-Evidence Database
+- Use Title Case.
+- Examples:
+  - Inventory System
+  - Audio Standards
+  - Evidence Database
 
 ---
 
-# HEADINGS
+## Headings
 
-Use Markdown hierarchy.
-
-#
-
-##
-
-###
-
-Avoid skipping heading levels.
+- Use Markdown hierarchy.
+- Use #, ##, and ### in sequence.
+- Avoid skipping heading levels.
 
 ---
 
-# LISTS
+## Lists
 
-Prefer unordered lists.
-
-Use numbered lists only for ordered procedures.
-
-Keep lists concise.
+- Prefer unordered lists.
+- Use numbered lists only for ordered procedures.
+- Keep lists concise.
 
 ---
 
-# TABLES
+## Tables
 
-Use tables only when they improve readability.
-
-Avoid overly large tables.
-
----
-
-# CODE BLOCKS
-
-Specify the language.
-
-Keep examples minimal.
-
-Never include production secrets.
+- Use tables only when they improve readability.
+- Avoid overly large tables.
 
 ---
 
-# IMAGES
+## Code Blocks
 
-Reference images by relative path.
-
-Never embed oversized images.
-
-Every image must have a descriptive filename.
+- Specify the language.
+- Keep examples minimal.
+- Never include production secrets.
 
 ---
 
-# LINKS
+## Images
 
-Use relative links inside the project.
-
-Avoid external links unless officially approved.
+- Reference images by relative path.
+- Never embed oversized images.
+- Every image must have a descriptive filename.
 
 ---
 
-# VERSIONING
+## Links
+
+- Use relative links inside the project.
+- Avoid external links unless officially approved.
+
+---
+
+## Versioning
 
 Every update increments the document version.
 
-Major structural changes:
-
-1.0 → 2.0
-
-Minor additions:
-
-1.1 → 1.2
-
-Bug fixes:
-
-1.2.1 → 1.2.2
+- Major structural changes: 1.0 → 2.0
+- Minor additions: 1.1 → 1.2
+- Bug fixes: 1.2.1 → 1.2.2
 
 ---
 
-# STATUS VALUES
+## Status Values
 
-Draft
-
-Review
-
-Approved
-
-Deprecated
-
-Archived
+- Draft
+- Review
+- Approved
+- Deprecated
+- Archived
 
 ---
 
-# FILE NAMING
+## File Naming
 
 Follow:
 
-NAMING_STANDARD.md
+- NAMING_STANDARD.md
 
-Examples
+Examples:
 
-StoryBible.md
-
-GameplayRules.md
-
-AudioBible.md
+- StoryBible.md
+- GameplayRules.md
+- AudioBible.md
 
 ---
 
-# CHANGE LOG
+## Change Log
 
 Significant updates should include:
 
-Version
-
-Date
-
-Summary of changes
+- Version
+- Date
+- Summary of changes
 
 ---
 
-# FORBIDDEN
+## Forbidden
 
-Duplicate documents.
-
-Contradictory documentation.
-
-Outdated examples.
-
-Placeholder text.
-
-TODOs in approved documents.
-
-Unexplained abbreviations.
+- Duplicate documents.
+- Contradictory documentation.
+- Outdated examples.
+- Placeholder text.
+- TODOs in approved documents.
+- Unexplained abbreviations.
 
 ---
 
-# QUALITY CHECK
+## Quality Check
 
 Every document must be:
 
-Accurate.
-
-Complete.
-
-Readable.
-
-Consistent.
-
-Searchable.
-
-Maintainable.
-
-Production-ready.
+- Accurate.
+- Complete.
+- Readable.
+- Consistent.
+- Searchable.
+- Maintainable.
+- Production-ready.
 
 ---
 
-# MASTER RULE
+## Master Rule
 
 Documentation is part of the project.
 
